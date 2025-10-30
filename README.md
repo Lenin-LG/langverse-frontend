@@ -163,7 +163,8 @@ After logging in, the app will access a `HomeActivity`, which allows you to navi
 
 ## 🧑‍💻 Author
 
-**✍️Lenin Laura Garcia**
+**✍️Lenin Laura Garcia** 
+
 Backend Developer | Spring Boot + Kotlin + AWS
 📍 Lima, Perú
 
