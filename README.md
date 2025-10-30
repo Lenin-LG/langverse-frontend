@@ -88,7 +88,21 @@ git clone https://github.com/Lenin-LG/langverse-frontend.git
 cd langverse-frontend
 ```
 
-Open with Android Studio and sync Gradle.
+Open the project with **Android Studio** and sync **Gradle**.
+
+> ⚠️ Make sure your backend is running before launching the app (see below).
+
+---
+
+## 🧱 Spring Boot Backend
+
+The backend services are available at:  
+👉 [**Langverse Backend**](https://github.com/Lenin-LG/langverse-backend)
+
+Developed with **Spring Boot**, **Spring Cloud**, **Keycloak**, **MySQL**, **AWS S3**, and **Docker Compose**,  
+following **Clean Architecture** principles.
+
+It provides secure REST APIs consumed by the Android app using **Retrofit** and **JWT authentication**.
 
 ---
 
