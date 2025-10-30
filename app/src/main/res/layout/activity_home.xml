@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutHome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:padding="16dp"
+    tools:context=".HomeActivity">
+
+    <!-- 🔝 Sección superior con Perfil y Logout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:paddingHorizontal="10dp">
+
+        <ImageButton
+            android:id="@+id/btnProfile"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Perfil"
+            android:padding="8dp"
+            android:src="@drawable/ic_person"
+            app:tint="@color/black" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLogout"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:text="Cerrar sesión"
+            android:textColor="@color/red_500"
+            app:icon="@drawable/ic_logout"
+            app:iconTint="@color/red_500"
+            app:iconPadding="4dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"/>
+    </RelativeLayout>
+
+    <!-- 🎉 Mensaje de bienvenida -->
+    <TextView
+        android:id="@+id/textViewWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Learn English!"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"
+        android:padding="8dp"/>
+
+    <!-- 📦 Botones principales como tarjetas -->
+    <GridLayout
+        android:id="@+id/gridOptions"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:columnCount="2"
+        android:rowCount="3"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="false"
+        android:padding="8dp"
+        android:rowOrderPreserved="false">
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/CardButtonStyle"
+            app:cardBackgroundColor="#FFF5E1"
+            app:strokeColor="#FFD699"
+            app:strokeWidth="1dp">
+
+            <Button
+                android:id="@+id/btnMovies"
+                style="@style/CardButtonContent"
+                android:text="Watch Movies/Series"
+                android:drawableTop="@drawable/ic_movie"/>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/CardButtonStyle"
+            app:cardBackgroundColor="#E3F2FD"
+            app:strokeColor="#90CAF9"
+            app:strokeWidth="1dp">
+
+            <Button
+                android:id="@+id/btnMusic"
+                style="@style/CardButtonContent"
+                android:text="Listen to Music"
+                android:drawableTop="@drawable/ic_music"/>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/CardButtonStyle"
+            app:cardBackgroundColor="#E8F5E9"
+            app:strokeColor="#A5D6A7"
+            app:strokeWidth="1dp">
+
+            <Button
+                android:id="@+id/btnNotes"
+                style="@style/CardButtonContent"
+                android:text="Vocabulary Notes"
+                android:drawableTop="@drawable/ic_notes"/>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/CardButtonStyle"
+            app:cardBackgroundColor="#FCE4EC"
+            app:strokeColor="#F8BBD0"
+            app:strokeWidth="1dp">
+
+            <Button
+                android:id="@+id/btnSpeaking"
+                style="@style/CardButtonContent"
+                android:text="Speaking Practice"
+                android:drawableTop="@drawable/ic_speaking"/>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/CardButtonStyle"
+            android:id="@+id/cardAdmin"
+            app:cardBackgroundColor="#EDE7F6"
+            app:strokeColor="#B39DDB"
+            app:strokeWidth="1dp"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/btnAdministrator"
+                style="@style/CardButtonContent"
+                android:text="Administrator"
+                android:drawableTop="@drawable/ic_admin"/>
+        </com.google.android.material.card.MaterialCardView>
+
+    </GridLayout>
+
+</LinearLayout>

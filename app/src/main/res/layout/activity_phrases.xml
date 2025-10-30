@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/btnBackToTopics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver a tópicos"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#CCCCCC"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/txtTopicTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Frases"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:padding="12dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerPhrases"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="gray">#757575</color>
+    <color name="gray_light">#E0E0E0</color>
+    <color name="screen_background">#FFFBFE</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#4CAF50</color>  >
+    <color name="red_500">#F44336</color>
+    <!-- Paleta de colores para modo claro -->
+    <color name="text_primary">#212121</color>  <!-- Texto principal (casi negro) -->
+    <color name="text_secondary">#757575</color>  <!-- Texto secundario (gris medio) -->
+    <color name="divider_color">#E0E0E0</color>
+    <!-- Colores de tema/material design -->
+    <color name="primary_color">#6200EE</color>  <!-- Color primario (morado material) -->
+    <color name="background_light">#FAFAFA</color>  <!-- Fondo claro -->
+    <color name="primary_text">#212121</color> <!-- Negro oscuro -->
+
+    <!-- Colores base -->
+    <color name="primary_dark">#3700B3</color>   <!-- Versión oscura del primario -->
+    <color name="primary_light">#BB86FC</color>  <!-- Versión clara -->
+
+    <!-- Colores de fondo -->
+    <color name="background_grey">#F5F5F6</color>  <!-- Gris claro para fondo -->
+    <color name="surface_white">#FFFFFF</color>    <!-- Para tarjetas -->
+
+
+    <!-- Colores para tarjetas de estadísticas -->
+    <color name="stats_card_1">#E3F2FD</color>     <!-- Azul claro -->
+    <color name="stats_card_2">#E8F5E9</color>     <!-- Verde claro -->
+    <color name="stats_card_3">#FFF8E1</color>     <!-- Amarillo claro -->
+    <color name="stats_card_4">#FCE4EC</color>     <!-- Rosa claro -->
+
+    <!-- Colores de estado -->
+    <color name="error_color">#B00020</color>      <!-- Rojo para errores -->
+    <color name="success_color">#2E7D32</color>    <!-- Verde para éxito -->
+
+    <!-- Modo claro (values/colors.xml) -->
+    <color name="surface_container">#F3EDF7</color>  <!-- Gris-lavanda claro -->
+    <color name="surface_container_low">#F7F2FA</color>  <!-- Variante más clara -->
+    <color name="surface_container_high">#E8DEF8</color>  <!-- Variante más oscura -->
+
+    <color name="on_surface">#1D1B20</color>  <!-- Negro suave (texto principal) -->
+    <color name="on_surface_variant">#49454F</color>  <!-- Gris oscuro (texto secundario) -->
+    <color name="mostaza_transparente">#80FFD966</color> <!-- Mostaza con opacidad -->
+
+
+    <color name="pastel_blue">#A7C7E7</color>
+    <color name="pastel_lavender">#C5B4E3</color>
+    <color name="pastel_mint">#B3E5DC</color>
+    <color name="pastel_sky">#D5F3FE</color>
+    <color name="pastel_lilac">#EADCF8</color>
+
+
+</resources>

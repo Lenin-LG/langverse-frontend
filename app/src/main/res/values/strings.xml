@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">ProyFronted</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="create_account">¿No tienes cuenta? Regístrate</string>
+    <string name="register">Registrarse</string>
+    <string name="already_have_account">¿Ya tienes cuenta? Inicia sesión</string>
+    <string name="profile_title">Profile and Settings</string>
+    <string name="username_hint">Username</string>
+    <string name="email_hint">Email</string>
+    <string name="dark_mode_label">Dark Mode</string>
+    <string name="language_hint">Preferred Language</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="learning_history_title">Your Learning Journey</string>
+    <string name="watched_content">Películas/Series vistas</string>
+    <string name="songs_listened">Canciones escuchadas</string>
+    <string name="saved_words">Palabras guardadas</string>
+    <string name="stats_title">Tu progreso</string>
+    <string name="admin_dashboard_title">Admin Dashboard</string>
+    <string name="content_management">Content Management</string>
+    <string name="manage_movies_series">Manage Movies/Series</string>
+    <string name="manage_music_tracks">Manage Music Tracks</string>
+    <string name="reports_analytics">Reports and Analytics</string>
+    <string name="user_activity_reports">User Activity Reports</string>
+    <string name="export_reports">Export Reports</string>
+    <string name="quick_stats">Quick Stats</string>
+    <string name="manage_movies_title">Manage Movies/Series</string>
+    <string name="title_hint">Title</string>
+    <string name="url_hint">Video URL</string>
+    <string name="language_hint_manage">Audio Language</string>
+    <string name="save_button">Save Content</string>
+    <string name="existing_movies">Existing Content</string>
+
+    --manage music
+    <string name="manage_music_title">Manage Music</string>
+    <string name="song_title_hint">Song Title</string>
+    <string name="audio_url_hint">Audio URL</string>
+    <string name="english">English</string>
+    <string name="spanish">Spanish</string>
+    <string name="save_music">Save Song</string>
+    <string name="existing_songs">Your Song Library</string>
+    <string name="lyrics_hint">Enter lyrics</string>
+    <string name="lyrics_icon_desc">Lyrics icon</string>
+    <string name="lyrics_field_desc">Field to enter song lyrics</string>
+
+    --manage report
+    <string name="reports_title">User Activity Reports</string>
+    <string name="top_users_title">Top Active Users</string>
+    <string name="top_content_title">Most Viewed Content</string>
+    <string name="export_pdf">Export PDF</string>
+    <string name="export_excel">Export Excel</string>
+    <string name="today">Today</string>
+    <string name="this_week">This Week</string>
+    <string name="this_month">This Month</string>
+
+    <string name="recording">Grabando...</string>
+    <string name="listening">Escuchando...</string>
+    <string name="speak">Hablar</string>
+
+</resources>

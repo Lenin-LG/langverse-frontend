@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/btnBackToPhrases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver a frases"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#CCCCCC"
+        android:textColor="#000000" />
+
+    <!-- Frase a repetir -->
+    <TextView
+        android:id="@+id/txtTargetPhrase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="12dp"/>
+
+    <!-- Texto reconocido por voz -->
+    <TextView
+        android:id="@+id/txtSpokenText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Texto hablado..."
+        android:textSize="18sp"
+        android:background="#EEEEEE"
+        android:padding="10dp"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Botón de hablar -->
+    <Button
+        android:id="@+id/btnSpeak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hablar"
+        android:backgroundTint="#3F51B5"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"/>
+
+
+    <!-- Resultado de precisión -->
+    <TextView
+        android:id="@+id/txtAccuracy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Precisión: --%"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:gravity="center"/>
+</LinearLayout>

@@ -1,0 +1,57 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#FFFFFF">
+
+    <!-- 🔙 Botón de regreso arriba a la izquierda -->
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="start"
+        android:layout_marginBottom="24dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@android:drawable/ic_menu_revert"
+        android:contentDescription="Volver" />
+
+    <!-- 👤 Nombre de usuario -->
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuario: ..."
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp" />
+
+    <!-- 📧 Email -->
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: ..."
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp" />
+
+
+
+    <!-- 🚫 Desactivar -->
+    <Button
+        android:id="@+id/btnDisableAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Desactivar cuenta"
+        android:layout_marginBottom="12dp" />
+
+    <!-- ❌ Eliminar -->
+    <Button
+        android:id="@+id/btnDeleteAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar cuenta"
+        android:textColor="@android:color/holo_red_dark" />
+</LinearLayout>

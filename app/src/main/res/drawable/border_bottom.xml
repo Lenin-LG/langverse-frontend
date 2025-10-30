@@ -1,0 +1,29 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="@android:color/white" /> <!-- fondo blanco -->
+
+    <size android:height="1dp" /> <!-- altura mínima -->
+
+    <padding android:bottom="1dp" />
+
+    <stroke
+        android:width="0dp"
+        android:color="@android:color/transparent" />
+
+    <corners android:radius="0dp" />
+
+    <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+        <item>
+            <shape android:shape="rectangle">
+                <solid android:color="@android:color/white" />
+            </shape>
+        </item>
+        <item android:bottom="0dp">
+            <shape android:shape="rectangle">
+                <size android:height="1dp" />
+                <solid android:color="#DDDDDD" /> <!-- Color del borde inferior -->
+            </shape>
+        </item>
+    </layer-list>
+</shape>
